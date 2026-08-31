@@ -1,0 +1,68 @@
+@startuml SistemaBiblioteca
+
+skinparam classAttributeIconSize 0
+skinparam class {
+  BackgroundColor White
+  BorderColor Black
+  ArrowColor Black
+}
+
+class Autor {
+  - nombre: String
+  - nacionalidad: String
+  + Autor(nombre: String, nacionalidad: String)
+  + getNombre(): String
+  + getNacionalidad(): String
+}
+
+abstract class Libro {
+  # titulo: String
+  # autor: Autor
+  # disponible: boolean
+  + Libro(titulo: String, autor: Autor)
+  + prestar(): void
+  + devolver(): void
+  + getEstado(): boolean
+  + getTitulo(): String
+  + getAutor(): Autor
+}
+
+class LibroDigital {
+  - formatoArchivo: String
+  - tamanoMB: double
+  + LibroDigital(titulo: String, autor: Autor, formatoArchivo: String, tamanoMB: double)
+  + descargar(): void
+  + prestar(): void
+}
+
+class Biblioteca {
+  - nombreBiblioteca: String
+  - libros: List<Libro>
+  - prestamos: List<Prestamo>
+  + agregarLibro(libro: Libro): void
+  + agregarLibro(libro: Libro, cantidadCopias: int): void
+  + buscarLibro(titulo: String): Libro
+  + registrarPrestamo(libro: Libro): Prestamo
+}
+
+class Prestamo {
+  - fechaPrestamo: Date
+  - fechaDevolucion: Date
+  - libro: Libro
+  + Prestamo(libro: Libro, fechaPrestamo: Date)
+  + calcularDiasRestantes(): int
+  + registrarDevolucion(): void
+  + estaVencido(): boolean
+}
+
+LibroDigital --|> Libro
+
+Libro "0..*" --> "1" Autor : escrito por >
+
+Biblioteca "1" o-- "0..*" Libro : cataloga >
+
+Prestamo "1" *-- "1" Libro : incluye >
+
+Biblioteca "1" *-- "0..*" Prestamo : gestiona >
+
+@enduml
