@@ -1,7 +1,7 @@
 package modelo;
 
 // Atributos
-public abstract class Libro {
+public class Libro {
     protected String titulo;
     protected boolean disponible;
     protected Autor autor;
@@ -16,6 +16,7 @@ public abstract class Libro {
     // Metodos para cambiar el estado Disponible
     public void prestar() {
         this.disponible = false;
+        System.out.println("El libro físico " + titulo + " ha sido prestado exitosamente");
     }
 
     public void devolver() {

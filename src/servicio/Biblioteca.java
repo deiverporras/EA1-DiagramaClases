@@ -54,6 +54,9 @@ public class Biblioteca {
      //esté disponible, y lo agrega a la lista de préstamos gestionados
      // por la biblioteca (composición).
     public Prestamo registrarPrestamo(Libro libro) {
+        if (!libro.getEstado()) {
+            return null;
+        }
         libro.prestar();
         Prestamo prestamo = new Prestamo(libro, LocalDate.now());
         prestamos.add(prestamo);

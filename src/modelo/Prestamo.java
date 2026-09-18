@@ -23,9 +23,12 @@ public class Prestamo {
      //tomando como plazo estándar DIAS_PRESTAMO días desde la fecha
      //de préstamo.
     public int calcularDiasRestantes() {
-        LocalDate fechaLimite = fechaPrestamo.plusDays(DIAS_PRESTAMO);
-        long dias = ChronoUnit.DAYS.between(LocalDate.now(), fechaLimite);
+        long dias = ChronoUnit.DAYS.between(LocalDate.now(), getFechaLimite());
         return (int) dias;
+    }
+
+    public LocalDate getFechaLimite() {
+        return fechaPrestamo.plusDays(DIAS_PRESTAMO);
     }
 
     // Registra la devolución del préstamo: fija la fecha de devolución

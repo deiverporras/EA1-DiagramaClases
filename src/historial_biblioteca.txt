@@ -1,0 +1,152 @@
+
+=== NUEVO FORMULARIO: 2026-09-18T14:53:57.927735100 ===
+Pregunta: Nombre del autor:
+Respuesta: DEVER
+Pregunta: Nacionalidad del autor:
+Respuesta: COLOMBIA
+Pregunta: Nombre de quien pide el libro:
+Respuesta: KAREN
+Pregunta: Título del libro:
+Respuesta: Cien a¤os
+Pregunta: ¿El libro es físico o digital? (fisico/digital):
+Respuesta: fisico
+Pregunta: KAREN, ¿deseas pedir prestado este libro? (si/no):
+Respuesta: si
+Resultado: entrega física preparada.
+Pregunta: ¿Quieres devolverlo ahora? (si/no):
+Respuesta: no
+Pregunta: ¿Deseas hacer otro formulario? (si/no):
+Respuesta: si
+
+=== NUEVO FORMULARIO: 2026-09-18T14:54:40.110859800 ===
+Pregunta: Nombre del autor:
+Respuesta: KAREN
+Pregunta: Nacionalidad del autor:
+Respuesta: COLOMBIA
+Pregunta: Nombre de quien pide el libro:
+Respuesta: DEIVER
+Pregunta: Título del libro:
+Respuesta: COMITE
+Pregunta: ¿El libro es físico o digital? (fisico/digital):
+Respuesta: digital
+Pregunta: Nombre del archivo Word en la carpeta Libros (ej. MiLibro.docx):
+Respuesta: COMITE.docx
+Pregunta: Formato del archivo (ej. PDF, EPUB):
+Respuesta: PDF
+Pregunta: Tamaño en MB:
+Respuesta: 10
+Pregunta: DEIVER, ¿deseas pedir prestado este libro? (si/no):
+Respuesta: si
+Pregunta: ¿Quieres descargar el Word o recibir un enlace? (descargar/enlace/no):
+Respuesta: descagar
+Pregunta: ¿Quieres devolverlo ahora? (si/no):
+Respuesta: ai
+Pregunta: ¿Deseas hacer otro formulario? (si/no):
+Respuesta: si
+
+=== NUEVO FORMULARIO: 2026-09-18T14:56:19.126132700 ===
+Pregunta: Nombre del autor:
+Respuesta: KAREN
+Pregunta: Nacionalidad del autor:
+Respuesta: COLOMBIA
+Pregunta: Nombre de quien pide el libro:
+Respuesta: DEIVER
+Pregunta: Título del libro:
+Respuesta: COMITE
+Pregunta: ¿El libro es físico o digital? (fisico/digital):
+Respuesta: digital
+Pregunta: Nombre del archivo Word en la carpeta Libros (ej. MiLibro.docx):
+Respuesta: COMITE.docx
+Pregunta: Formato del archivo (ej. PDF, EPUB):
+Respuesta: PDF
+Pregunta: Tamaño en MB:
+Respuesta: 1
+Pregunta: DEIVER, ¿deseas pedir prestado este libro? (si/no):
+Respuesta: si
+Resultado: préstamo rechazado porque el libro está prestado.
+Pregunta: ¿Deseas hacer otro formulario? (si/no):
+Respuesta: no
+
+=== NUEVO FORMULARIO: 2026-09-18T14:58:50.765032200 ===
+Pregunta: Nombre del autor:
+Respuesta: DEIVER
+Pregunta: Nacionalidad del autor:
+Respuesta: COLOMBIA
+Pregunta: Nombre de quien pide el libro:
+Respuesta: KAREN
+Pregunta: Título del libro:
+Respuesta: COMITE
+Pregunta: ¿El libro es físico o digital? (fisico/digital):
+Respuesta: digital
+Pregunta: Nombre del archivo Word en la carpeta Libros (ej. MiLibro.docx):
+Respuesta: COMITE.docx
+Pregunta: Formato del archivo (ej. PDF, EPUB):
+Respuesta: PDF
+Pregunta: Tamaño en MB:
+Respuesta: 10
+Pregunta: KAREN, ¿deseas pedir prestado este libro? (si/no):
+Respuesta: SI
+Pregunta: ¿Quieres descargar el Word o recibir un enlace? (descargar/enlace/no):
+Respuesta: descargar
+Resultado: archivo descargado.
+Pregunta: ¿Quieres devolverlo ahora? (si/no):
+Respuesta: no
+Pregunta: ¿Deseas hacer otro formulario? (si/no):
+Respuesta: si
+
+=== NUEVO FORMULARIO: 2026-09-18T15:00:55.333007200 ===
+Pregunta: Nombre del autor:
+Respuesta: DEIVER
+Pregunta: Nacionalidad del autor:
+Respuesta: COLOMBIA
+Pregunta: Nombre de quien pide el libro:
+Respuesta: KAREN
+Pregunta: Título del libro:
+Respuesta: COMITE
+Pregunta: ¿El libro es físico o digital? (fisico/digital):
+Respuesta: digital
+Pregunta: Nombre del archivo Word en la carpeta Libros (ej. MiLibro.docx):
+Respuesta: COMITE.docx
+Pregunta: Formato del archivo (ej. PDF, EPUB):
+Respuesta: PDF
+Pregunta: Tamaño en MB:
+Respuesta: 10
+Pregunta: KAREN, ¿deseas pedir prestado este libro? (si/no):
+Respuesta: si
+Resultado: préstamo rechazado porque el libro está prestado.
+Pregunta: ¿Deseas hacer otro formulario? (si/no):
+Respuesta: si
+
+=== NUEVO FORMULARIO: 2026-09-18T15:01:51.301086900 ===
+Pregunta: Nombre del autor:
+Respuesta: KAREN
+Pregunta: Nacionalidad del autor:
+Respuesta: COLOMBIA
+Pregunta: Nombre de quien pide el libro:
+Respuesta: DEIVER
+Pregunta: Título del libro:
+Respuesta: Amor en tiempos de colera
+Pregunta: ¿El libro es físico o digital? (fisico/digital):
+Respuesta: fisico
+Pregunta: DEIVER, ¿deseas pedir prestado este libro? (si/no):
+Respuesta: si
+Resultado: entrega física preparada.
+Pregunta: ¿Quieres devolverlo ahora? (si/no):
+Respuesta: no
+Pregunta: ¿Deseas hacer otro formulario? (si/no):
+Respuesta: si
+
+=== NUEVO FORMULARIO: 2026-09-18T15:02:44.748021800 ===
+Pregunta: Nombre del autor:
+Respuesta: KAREN
+Pregunta: Nacionalidad del autor:
+Respuesta: COLOMBIA
+Pregunta: Nombre de quien pide el libro:
+Respuesta: DEIVER
+Pregunta: Título del libro:
+Respuesta: Amor en tiempos de colera
+Pregunta: ¿El libro es físico o digital? (fisico/digital):
+Respuesta: fisico
+Pregunta: DEIVER, ¿deseas pedir prestado este libro? (si/no):
+Respuesta: si
+Resultado: préstamo rechazado porque el libro está prestado.
