@@ -1,10 +1,11 @@
 package modelo;
 
-// Atributos
 public class Libro {
-    protected String titulo;
-    protected boolean disponible;
-    protected Autor autor;
+
+    // Atributos
+    private String titulo;
+    private Autor autor;
+    private boolean disponible;
 
     // Constructor
     public Libro(String titulo, Autor autor) {
@@ -13,7 +14,7 @@ public class Libro {
         this.disponible = true;
     }
 
-    // Metodos para cambiar el estado Disponible
+    // Métodos
     public void prestar() {
         this.disponible = false;
         System.out.println("El libro físico " + titulo + " ha sido prestado exitosamente");
@@ -23,16 +24,29 @@ public class Libro {
         this.disponible = true;
     }
 
-    // Getter
-    public boolean getEstado() {
-        return disponible;
-    }
-
+    // Getters
     public String getTitulo() {
         return titulo;
     }
 
     public Autor getAutor() {
         return autor;
+    }
+
+    public boolean getEstado() {
+        return disponible;
+    }
+
+    // Setters
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public void setAutor(Autor autor) {
+        this.autor = autor;
+    }
+
+    public void setDisponible(boolean disponible) {
+        this.disponible = disponible;
     }
 }
