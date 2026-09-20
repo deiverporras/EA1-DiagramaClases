@@ -6,11 +6,8 @@ Implementa en Java el diagrama de clases diseñado en la Actividad 1 (Sistema de
 
 ## Integrantes
 
-- [Nombre completo integrante 1]
-- [Nombre completo integrante 2]
-- [Nombre completo integrante 3]
-
-**Grupo:** [X]
+- DAVID ALEXANDER PIEDRAHITA PEREZ
+- DEIVER ALONSO PORRAS ALVAREZ
 
 ## Descripción del sistema
 
@@ -90,5 +87,4 @@ encuentran en el informe PDF entregado en la plataforma (normas APA 7.ª ed.).
 
 ## Enlaces
 
-- Repositorio de GitHub: [pendiente de agregar]
 - Video de sustentación: [pendiente de agregar]
