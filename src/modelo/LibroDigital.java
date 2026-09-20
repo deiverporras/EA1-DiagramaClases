@@ -38,7 +38,7 @@ public class LibroDigital extends Libro {
             for (Path archivo : archivos) {
                 if (Files.isRegularFile(archivo)
                         && esDocumentoWord(archivo)
-                        && normalizar(nombreSinExtension(archivo)).equals(nombreBuscado)) {
+                        && normalizar(nombreSinExtension(archivo)).contains(nombreBuscado)) {
                     return archivo;
                 }
             }
@@ -73,8 +73,8 @@ public class LibroDigital extends Libro {
     // Sobreescritura del metodo prestar
     @Override
     public void prestar() {
-        super.prestar();
-        System.out.println("El libro digital " + getTitulo() + " ha sido prestado exitosamente");
+    setDisponible(false);
+    System.out.println("El libro digital " + getTitulo() + " ha sido prestado exitosamente");
     }
 
     // Getter
