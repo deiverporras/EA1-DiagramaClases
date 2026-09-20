@@ -85,4 +85,13 @@ public class LibroDigital extends Libro {
     public double getTamanoMB() {
         return tamanoMB;
     }
+
+    // Setter
+    public void setFormatoArchivo(String formatoArchivo) {
+    this.formatoArchivo = formatoArchivo;
+    }
+
+public void setTamanoMB(double tamanoMB) {
+    this.tamanoMB = tamanoMB;
+    }
 }
