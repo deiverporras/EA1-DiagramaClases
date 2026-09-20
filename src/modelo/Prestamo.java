@@ -45,6 +45,7 @@ public class Prestamo {
         return calcularDiasRestantes() < 0 && fechaDevolucion == null;
     }
 
+    // Getters
     public LocalDate getFechaPrestamo() {
         return fechaPrestamo;
     }
@@ -57,8 +58,21 @@ public class Prestamo {
         return libro;
     }
 
-    @Override
+    @Override // Sobreescritura del método toString para mostrar información del préstamo
     public String toString() {
         return "Préstamo de " + libro.getTitulo() + " (desde " + fechaPrestamo + ")";
+    }
+    
+    // Setters
+    public void setFechaPrestamo(LocalDate fechaPrestamo) {
+    this.fechaPrestamo = fechaPrestamo;
+    }
+
+    public void setFechaDevolucion(LocalDate fechaDevolucion) {
+    this.fechaDevolucion = fechaDevolucion;
+    }
+
+    public void setLibro(Libro libro) {
+    this.libro = libro;
     }
 }
