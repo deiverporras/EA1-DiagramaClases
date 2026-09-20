@@ -6,8 +6,8 @@ Implementa en Java el diagrama de clases diseñado en la Actividad 1 (Sistema de
 
 ## Integrantes
 
-- [Nombre completo integrante 1]
-- [DEIVER ALONSO PORRAS ALVAREZ]
+- DAVID ALEXANDER PIEDRAHITA PEREZ
+- DEIVER ALONSO PORRAS ALVAREZ
 
 ## Descripción del sistema
 
