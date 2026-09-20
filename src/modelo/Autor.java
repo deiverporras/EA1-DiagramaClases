@@ -11,12 +11,21 @@ public class Autor {
         this.nacionalidad = nacionalidad;
     }
 
-    // Getter
+    // Getters
     public String getNombre() {
         return nombre;
     }
 
     public String getNacionalidad() {
         return nacionalidad;
+    }
+
+    // Setters
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setNacionalidad(String nacionalidad) {
+        this.nacionalidad = nacionalidad;
     }
 }
