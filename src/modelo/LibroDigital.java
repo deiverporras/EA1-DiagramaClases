@@ -21,11 +21,11 @@ public class LibroDigital extends Libro {
 
     // Metodo propio
     public void descargar() {
-        System.out.println("Descargando el libro " + titulo + " (" + tamanoMB + "MB...");
+        System.out.println("Descargando el libro " + getTitulo() + " (" + tamanoMB + "MB...");
     }
 
     public Path buscarArchivo(Path carpetaLibros) throws IOException {
-        return buscarArchivo(carpetaLibros, titulo);
+        return buscarArchivo(carpetaLibros, getTitulo());
     }
 
     public Path buscarArchivo(Path carpetaLibros, String nombreArchivo) throws IOException {
@@ -74,7 +74,7 @@ public class LibroDigital extends Libro {
     @Override
     public void prestar() {
         super.prestar();
-        System.out.println("El libro digital " + titulo + " ha sido prestado exitosamente");
+        System.out.println("El libro digital " + getTitulo() + " ha sido prestado exitosamente");
     }
 
     // Getter
@@ -91,7 +91,7 @@ public class LibroDigital extends Libro {
     this.formatoArchivo = formatoArchivo;
     }
 
-public void setTamanoMB(double tamanoMB) {
+    public void setTamanoMB(double tamanoMB) {
     this.tamanoMB = tamanoMB;
     }
 }
