@@ -8,6 +8,7 @@ Implementa en Java el diagrama de clases diseñado en la Actividad 1 (Sistema de
 
 - DAVID ALEXANDER PIEDRAHITA PEREZ
 - DEIVER ALONSO PORRAS ALVAREZ
+- KAREN ALEJANDRA OCAMPO GRACIANO
 
 ## Descripción del sistema
 
