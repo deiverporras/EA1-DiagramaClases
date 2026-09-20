@@ -10,21 +10,25 @@ skinparam class {
 class Autor {
   - nombre: String
   - nacionalidad: String
-  + Autor(nombre: String, nacionalidad: String)
   + getNombre(): String
+  + setNombre(nombre: String): void
   + getNacionalidad(): String
+  + setNacionalidad(nacionalidad: String): void
 }
 
 abstract class Libro {
-  # titulo: String
-  # autor: Autor
-  # disponible: boolean
+  - titulo: String
+  - autor: Autor
+  - disponible: boolean
   + Libro(titulo: String, autor: Autor)
   + prestar(): void
   + devolver(): void
-  + getEstado(): boolean
   + getTitulo(): String
+  + setTitulo(titulo: String): void
   + getAutor(): Autor
+  + setAutor(autor: Autor): void
+  + getEstado(): boolean
+  + setDisponible(disponible: boolean): void
 }
 
 class LibroDigital {
@@ -33,12 +37,18 @@ class LibroDigital {
   + LibroDigital(titulo: String, autor: Autor, formatoArchivo: String, tamanoMB: double)
   + descargar(): void
   + prestar(): void
+  + getFormatoArchivo(): String
+  + setFormatoArchivo(formatoArchivo: String): void
+  + getTamanoMB(): double
+  + setTamanoMB(tamanoMB: double): void
 }
 
 class Biblioteca {
   - nombreBiblioteca: String
   - libros: List<Libro>
   - prestamos: List<Prestamo>
+  + Biblioteca(nombreBiblioteca: String)
+  + getNombreBiblioteca(): String
   + agregarLibro(libro: Libro): void
   + agregarLibro(libro: Libro, cantidadCopias: int): void
   + buscarLibro(titulo: String): Libro
@@ -50,6 +60,12 @@ class Prestamo {
   - fechaDevolucion: Date
   - libro: Libro
   + Prestamo(libro: Libro, fechaPrestamo: Date)
+  + getFechaPrestamo(): Date
+  + setFechaPrestamo(fechaPrestamo: Date): void
+  + getFechaDevolucion(): Date
+  + setFechaDevolucion(fechaDevolucion: Date): void
+  + getLibro(): Libro
+  + setLibro(libro: Libro): void
   + calcularDiasRestantes(): int
   + registrarDevolucion(): void
   + estaVencido(): boolean
